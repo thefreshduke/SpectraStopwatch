@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F781D431D43EA0F00AE7388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F781D421D43EA0F00AE7388 /* AppDelegate.swift */; };
+		6F781D451D43EA0F00AE7388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F781D441D43EA0F00AE7388 /* ViewController.swift */; };
+		6F781D481D43EA0F00AE7388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F781D461D43EA0F00AE7388 /* Main.storyboard */; };
+		6F781D4A1D43EA0F00AE7388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F781D491D43EA0F00AE7388 /* Assets.xcassets */; };
+		6F781D4D1D43EA0F00AE7388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F781D4B1D43EA0F00AE7388 /* LaunchScreen.storyboard */; };
+		6F781D581D43EA0F00AE7388 /* SpectraStopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F781D571D43EA0F00AE7388 /* SpectraStopwatchTests.swift */; };
+		6F781D631D43EA0F00AE7388 /* SpectraStopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F781D621D43EA0F00AE7388 /* SpectraStopwatchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F781D541D43EA0F00AE7388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F781D371D43EA0F00AE7388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F781D3E1D43EA0F00AE7388;
+			remoteInfo = SpectraStopwatch;
+		};
+		6F781D5F1D43EA0F00AE7388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F781D371D43EA0F00AE7388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F781D3E1D43EA0F00AE7388;
+			remoteInfo = SpectraStopwatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F781D3F1D43EA0F00AE7388 /* SpectraStopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectraStopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F781D421D43EA0F00AE7388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F781D441D43EA0F00AE7388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F781D471D43EA0F00AE7388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F781D491D43EA0F00AE7388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F781D4C1D43EA0F00AE7388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F781D4E1D43EA0F00AE7388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F781D531D43EA0F00AE7388 /* SpectraStopwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectraStopwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F781D571D43EA0F00AE7388 /* SpectraStopwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraStopwatchTests.swift; sourceTree = "<group>"; };
+		6F781D591D43EA0F00AE7388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F781D5E1D43EA0F00AE7388 /* SpectraStopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectraStopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F781D621D43EA0F00AE7388 /* SpectraStopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectraStopwatchUITests.swift; sourceTree = "<group>"; };
+		6F781D641D43EA0F00AE7388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F781D3C1D43EA0F00AE7388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F781D501D43EA0F00AE7388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F781D5B1D43EA0F00AE7388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F781D361D43EA0F00AE7388 = {
+			isa = PBXGroup;
+			children = (
+				6F781D411D43EA0F00AE7388 /* SpectraStopwatch */,
+				6F781D561D43EA0F00AE7388 /* SpectraStopwatchTests */,
+				6F781D611D43EA0F00AE7388 /* SpectraStopwatchUITests */,
+				6F781D401D43EA0F00AE7388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F781D401D43EA0F00AE7388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F781D3F1D43EA0F00AE7388 /* SpectraStopwatch.app */,
+				6F781D531D43EA0F00AE7388 /* SpectraStopwatchTests.xctest */,
+				6F781D5E1D43EA0F00AE7388 /* SpectraStopwatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F781D411D43EA0F00AE7388 /* SpectraStopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				6F781D421D43EA0F00AE7388 /* AppDelegate.swift */,
+				6F781D441D43EA0F00AE7388 /* ViewController.swift */,
+				6F781D461D43EA0F00AE7388 /* Main.storyboard */,
+				6F781D491D43EA0F00AE7388 /* Assets.xcassets */,
+				6F781D4B1D43EA0F00AE7388 /* LaunchScreen.storyboard */,
+				6F781D4E1D43EA0F00AE7388 /* Info.plist */,
+			);
+			path = SpectraStopwatch;
+			sourceTree = "<group>";
+		};
+		6F781D561D43EA0F00AE7388 /* SpectraStopwatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F781D571D43EA0F00AE7388 /* SpectraStopwatchTests.swift */,
+				6F781D591D43EA0F00AE7388 /* Info.plist */,
+			);
+			path = SpectraStopwatchTests;
+			sourceTree = "<group>";
+		};
+		6F781D611D43EA0F00AE7388 /* SpectraStopwatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F781D621D43EA0F00AE7388 /* SpectraStopwatchUITests.swift */,
+				6F781D641D43EA0F00AE7388 /* Info.plist */,
+			);
+			path = SpectraStopwatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F781D3E1D43EA0F00AE7388 /* SpectraStopwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F781D671D43EA0F00AE7388 /* Build configuration list for PBXNativeTarget "SpectraStopwatch" */;
+			buildPhases = (
+				6F781D3B1D43EA0F00AE7388 /* Sources */,
+				6F781D3C1D43EA0F00AE7388 /* Frameworks */,
+				6F781D3D1D43EA0F00AE7388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpectraStopwatch;
+			productName = SpectraStopwatch;
+			productReference = 6F781D3F1D43EA0F00AE7388 /* SpectraStopwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F781D521D43EA0F00AE7388 /* SpectraStopwatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F781D6A1D43EA0F00AE7388 /* Build configuration list for PBXNativeTarget "SpectraStopwatchTests" */;
+			buildPhases = (
+				6F781D4F1D43EA0F00AE7388 /* Sources */,
+				6F781D501D43EA0F00AE7388 /* Frameworks */,
+				6F781D511D43EA0F00AE7388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F781D551D43EA0F00AE7388 /* PBXTargetDependency */,
+			);
+			name = SpectraStopwatchTests;
+			productName = SpectraStopwatchTests;
+			productReference = 6F781D531D43EA0F00AE7388 /* SpectraStopwatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F781D5D1D43EA0F00AE7388 /* SpectraStopwatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F781D6D1D43EA0F00AE7388 /* Build configuration list for PBXNativeTarget "SpectraStopwatchUITests" */;
+			buildPhases = (
+				6F781D5A1D43EA0F00AE7388 /* Sources */,
+				6F781D5B1D43EA0F00AE7388 /* Frameworks */,
+				6F781D5C1D43EA0F00AE7388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F781D601D43EA0F00AE7388 /* PBXTargetDependency */,
+			);
+			name = SpectraStopwatchUITests;
+			productName = SpectraStopwatchUITests;
+			productReference = 6F781D5E1D43EA0F00AE7388 /* SpectraStopwatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F781D371D43EA0F00AE7388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "___sks6___";
+				TargetAttributes = {
+					6F781D3E1D43EA0F00AE7388 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6F781D521D43EA0F00AE7388 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6F781D3E1D43EA0F00AE7388;
+					};
+					6F781D5D1D43EA0F00AE7388 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6F781D3E1D43EA0F00AE7388;
+					};
+				};
+			};
+			buildConfigurationList = 6F781D3A1D43EA0F00AE7388 /* Build configuration list for PBXProject "SpectraStopwatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F781D361D43EA0F00AE7388;
+			productRefGroup = 6F781D401D43EA0F00AE7388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F781D3E1D43EA0F00AE7388 /* SpectraStopwatch */,
+				6F781D521D43EA0F00AE7388 /* SpectraStopwatchTests */,
+				6F781D5D1D43EA0F00AE7388 /* SpectraStopwatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F781D3D1D43EA0F00AE7388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F781D4D1D43EA0F00AE7388 /* LaunchScreen.storyboard in Resources */,
+				6F781D4A1D43EA0F00AE7388 /* Assets.xcassets in Resources */,
+				6F781D481D43EA0F00AE7388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F781D511D43EA0F00AE7388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F781D5C1D43EA0F00AE7388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F781D3B1D43EA0F00AE7388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F781D451D43EA0F00AE7388 /* ViewController.swift in Sources */,
+				6F781D431D43EA0F00AE7388 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F781D4F1D43EA0F00AE7388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F781D581D43EA0F00AE7388 /* SpectraStopwatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F781D5A1D43EA0F00AE7388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F781D631D43EA0F00AE7388 /* SpectraStopwatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F781D551D43EA0F00AE7388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F781D3E1D43EA0F00AE7388 /* SpectraStopwatch */;
+			targetProxy = 6F781D541D43EA0F00AE7388 /* PBXContainerItemProxy */;
+		};
+		6F781D601D43EA0F00AE7388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F781D3E1D43EA0F00AE7388 /* SpectraStopwatch */;
+			targetProxy = 6F781D5F1D43EA0F00AE7388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F781D461D43EA0F00AE7388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F781D471D43EA0F00AE7388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F781D4B1D43EA0F00AE7388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F781D4C1D43EA0F00AE7388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F781D651D43EA0F00AE7388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F781D661D43EA0F00AE7388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F781D681D43EA0F00AE7388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpectraStopwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.scottyshaw.SpectraStopwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F781D691D43EA0F00AE7388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpectraStopwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.scottyshaw.SpectraStopwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F781D6B1D43EA0F00AE7388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpectraStopwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.scottyshaw.SpectraStopwatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectraStopwatch.app/SpectraStopwatch";
+			};
+			name = Debug;
+		};
+		6F781D6C1D43EA0F00AE7388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpectraStopwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.scottyshaw.SpectraStopwatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectraStopwatch.app/SpectraStopwatch";
+			};
+			name = Release;
+		};
+		6F781D6E1D43EA0F00AE7388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpectraStopwatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.scottyshaw.SpectraStopwatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpectraStopwatch;
+			};
+			name = Debug;
+		};
+		6F781D6F1D43EA0F00AE7388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpectraStopwatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.scottyshaw.SpectraStopwatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpectraStopwatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F781D3A1D43EA0F00AE7388 /* Build configuration list for PBXProject "SpectraStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F781D651D43EA0F00AE7388 /* Debug */,
+				6F781D661D43EA0F00AE7388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F781D671D43EA0F00AE7388 /* Build configuration list for PBXNativeTarget "SpectraStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F781D681D43EA0F00AE7388 /* Debug */,
+				6F781D691D43EA0F00AE7388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F781D6A1D43EA0F00AE7388 /* Build configuration list for PBXNativeTarget "SpectraStopwatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F781D6B1D43EA0F00AE7388 /* Debug */,
+				6F781D6C1D43EA0F00AE7388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F781D6D1D43EA0F00AE7388 /* Build configuration list for PBXNativeTarget "SpectraStopwatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F781D6E1D43EA0F00AE7388 /* Debug */,
+				6F781D6F1D43EA0F00AE7388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F781D371D43EA0F00AE7388 /* Project object */;
+}

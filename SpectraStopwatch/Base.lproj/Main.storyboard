@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SpectraStopwatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi Sharon and Grace :D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MV6-93-Qiy">
+                                <rect key="frame" x="175" y="250" width="250" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Kot-KO-fOh"/>
+                                    <constraint firstAttribute="height" constant="100" id="YiX-an-WS9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" red="0.48627450980392156" green="0.0" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="1" green="0.0" blue="0.037066020669999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdw-Qp-6sR">
+                                <rect key="frame" x="200" y="130" width="200" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="JAZ-9b-WkT"/>
+                                    <constraint firstAttribute="width" constant="200" id="oKe-7r-lWs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <connections>
+                                    <action selector="startTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WXP-7q-TAW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6VQ-7T-1xY">
+                                <rect key="frame" x="200" y="370" width="200" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.037066020673091948" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="SIV-d4-V9u"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="ZlR-dc-yxQ"/>
+                                    <constraint firstAttribute="height" constant="100" id="syE-jD-zg7"/>
+                                    <constraint firstAttribute="width" constant="200" id="vVh-Ok-hBy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="50"/>
+                                <state key="normal" title="STOP">
+                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iy5-KQ-pKK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MV6-93-Qiy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AyW-hs-ktv"/>
+                            <constraint firstItem="6VQ-7T-1xY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IIo-Xr-YZF"/>
+                            <constraint firstItem="MV6-93-Qiy" firstAttribute="top" secondItem="cdw-Qp-6sR" secondAttribute="bottom" constant="20" id="JRD-tR-daS"/>
+                            <constraint firstItem="6VQ-7T-1xY" firstAttribute="top" secondItem="MV6-93-Qiy" secondAttribute="bottom" constant="20" id="Swc-0G-iwb"/>
+                            <constraint firstItem="cdw-Qp-6sR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lbs-PV-ZDk"/>
+                            <constraint firstItem="MV6-93-Qiy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rfC-A4-o3W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myLabel" destination="MV6-93-Qiy" id="2DG-KV-GX9"/>
+                        <outlet property="startButton" destination="cdw-Qp-6sR" id="rOV-t8-s1b"/>
+                        <outlet property="stopButton" destination="6VQ-7T-1xY" id="KWh-0g-H42"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="299"/>
+        </scene>
+    </scenes>
+</document>
